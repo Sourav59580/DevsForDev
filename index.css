@@ -1,0 +1,49 @@
+.font-risque {
+    font-family: 'Risque', cursive;
+    font-size: 18px;
+}
+
+.navbar-search {
+    width: 250px;
+    padding-left: 30px;
+    border: none;
+    color: grey;
+    /* border-radius: 20px; */
+    background-color: black;
+}
+
+.form-icon {
+    left: 25px;
+    position: relative;
+}
+
+/* Main Section */
+.main-container{
+background-color:#F2F2F2 ;
+}
+
+/* Left sidenavbar coding */
+.sidenavbar {
+    width: 200px;
+    height: 100vh;
+    background: #F2F2F2;
+}
+
+@media(max-width:768px)
+{
+    .sidenavbar{
+        display: none;
+        /* position: absolute;
+        z-index: 100; */
+    }
+}
+/* Right sidenavbar coding */
+.right-sidenavbar{
+    background:#F2F2F2
+}
+
+input[type='text'],[type='password'],[type='email'],[type='number']::placeholder{
+    font-family: fontAwesome;
+    font-size:18px;
+    color: gray;
+   }
