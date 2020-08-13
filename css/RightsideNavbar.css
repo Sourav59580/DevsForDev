@@ -1,0 +1,10 @@
+/* Right sidenavbar coding */
+.right-sidenavbar{
+    background:#F2F2F2
+}
+
+input[type='text'],[type='password'],[type='email'],[type='number']::placeholder{
+    font-family: fontAwesome;
+    font-size:18px;
+    color: gray;
+   }

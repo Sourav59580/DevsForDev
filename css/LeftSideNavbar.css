@@ -1,0 +1,15 @@
+/* Left sidenavbar coding */
+.sidenavbar {
+    width: 200px;
+    height: 100vh;
+    background: #F2F2F2;
+}
+
+@media(max-width:768px)
+{
+    .sidenavbar{
+        display: none;
+        /* position: absolute;
+        z-index: 100; */
+    }
+}

@@ -1,0 +1,13 @@
+.navbar-search {
+    width: 250px;
+    padding-left: 30px;
+    border: none;
+    color: grey;
+    /* border-radius: 20px; */
+    background-color: black;
+}
+
+.form-icon {
+    left: 25px;
+    position: relative;
+}
